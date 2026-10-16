@@ -1,0 +1,10 @@
+{
+  "name": "seglab-x86",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio interactivo de direccionamiento x86: modo real, modo protegido y reversing de descriptores.",
+  "scripts": {
+    "test": "node --test tests/core.test.js",
+    "start": "python3 -m http.server 8000"
+  }
+}
